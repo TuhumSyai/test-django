@@ -1,2 +1,2 @@
-# test-django
-studing django
+# GAMESTORE
+create game store. 
