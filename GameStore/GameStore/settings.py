@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-y=2&=q6un*ak%j8ow0f5_zyhif-%(+n5_nwm9o&otc#s-sgsqm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'GameStore-django.com']
 
 
 # Application definition
