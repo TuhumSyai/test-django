@@ -4,7 +4,10 @@ from django.http import JsonResponse
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Store")
+    return render(request, 'store/index.html')
+
+def login(request):
+    return render(request, 'store/login.html')
 
 def game_list(request):
     games = get_games()
